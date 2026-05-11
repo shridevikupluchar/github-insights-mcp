@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "github-insights": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "./build/index.js"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "github-insights-mcp",
+  "version": "0.1.0",
+  "description": "A learning MCP server that exposes GitHub repo insights to Claude Code.",
+  "type": "module",
+  "main": "./build/index.js",
+  "bin": {
+    "github-insights-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shridevikupluchar/github-insights-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "claude"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shridevikupluchar/github-insights-mcp/issues"
+  },
+  "homepage": "https://github.com/shridevikupluchar/github-insights-mcp#readme"
+}
